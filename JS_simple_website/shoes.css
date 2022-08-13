@@ -1,0 +1,170 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bb
+{
+    background-color: rgba(237,15,90,255);
+    transition: 0.5s;
+}
+
+
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+header .logo
+{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header ul
+{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+header ul li
+{
+    margin: 0px 20px;
+    list-style: none;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    transition: 0.5s;
+
+}
+
+header ul li a.active , header ul li a:hover
+
+{
+    background-color: white;
+    color: black;
+    padding: 5px; 
+    border: 2px solid white;
+    border-radius: 6px;
+    /* transform: scale(1.5); */
+}
+
+
+.content
+{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text
+{
+    position: relative;
+    max-width: 600px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.text h2{
+    /* position: absolute; */
+    top: 0;
+    left: 5;
+    font-size: 2.5em;
+    margin: 12px 0px;
+
+}
+
+.text p
+{
+    margin: 12px 0px;
+}
+.imgbox
+{
+    position: relative;
+    justify-content: flex-end;
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgbox img
+{
+    max-width: 650px;
+    transition: 0.5s;
+}
+
+
+.sect
+{
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.sect li{
+    list-style: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    height: 100px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 2px solid rgba(255, 255, 255, 0.353);
+}
+
+.sect li img
+{
+    width: 150px;
+}
+/* Common */
+
+.btn
+{
+    background-color: white;
+    color: black;
+    padding: 5px; 
+    border: 2px solid white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn:hover
+{
+    background-color: transparent;
+    color: white;
+}
